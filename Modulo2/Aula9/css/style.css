@@ -18,6 +18,7 @@ body {
 
 .page-description {
 
+    color: rgba(255, 255, 255, 0.6);
     padding-left: 64px;
 
 }
@@ -41,6 +42,7 @@ body {
     padding: 32px 12px;
     transition: .5s ease-in-out;
     cursor: pointer;
+    color: white;
 
 }
 
@@ -71,6 +73,7 @@ body {
 
 .video-title {
 
+    color: white;
     margin: 8px 0 12px;
 
 }
@@ -92,6 +95,8 @@ body {
 
 .video-date {
 
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
     text-align: right;
     display: block;
 
