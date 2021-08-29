@@ -10,10 +10,11 @@ h1{
 }
 
 .media-picture{
-    width: 240%;
-    height: 650px;
+    width: 100%;
+    height: 400px;
     background-image: url(http://images.allocine.fr/pictures/18/05/28/13/58/2439328.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
 }
 .review-score{
     color: white;
