@@ -4,6 +4,7 @@
   
   body {
     background-color: silver;
+    position: sticky;
   }
   
   h1 {
@@ -38,7 +39,7 @@
 
 #div2{
     position:fixed;
-    left: 50%;
+    left: 45%;
     bottom: 0;
 }
 
