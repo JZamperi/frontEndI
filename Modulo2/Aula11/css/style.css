@@ -3,7 +3,6 @@
   }
   
   body {
-    height: 500px;
     background-color: silver;
   }
   
@@ -30,12 +29,6 @@
     padding-left: 15px;
 
   }
-  
-#pai {
-    border: 5px rgb(0, 17, 252) solid;
-    padding: 150px;
-    position: relative;
-}
 
 #div1{
     position:absolute;
@@ -45,7 +38,8 @@
 
 #div2{
     position:fixed;
-    left: 40%;
+    left: 50%;
+    bottom: 0;
 }
 
 #div3{
