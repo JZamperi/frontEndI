@@ -1,7 +1,9 @@
 
 body{
-    background-image: url(/img/parkAqua.jpg);
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2019/12/Yas-Waterworld-1-820x492.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    float: center;
     width: 1330px;
     height: 880px;
     border: 5px solid rgb(14, 49, 245);
