@@ -5,6 +5,7 @@
   body {
     background-color: silver;
     position: sticky;
+    height: 1000px;
   }
   
   h1 {
