@@ -2,35 +2,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 body{
-    background-image: url(/img/fundoBarueri.jpg);
+    background-image: url(/img/alphaBarueri.png);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    
+    text-align: left;   
 }
 
 header{
     padding: 10px 20px;
-    font-weight: bold;
+    background-color: #1726ad;
+    color: whitesmoke;
+    border-radius: 20px 20px 20px 20px;
 }
 
 h1{
     color: aliceblue;
     font-family: 'Rampart One';
     text-align: center;
+}
 
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 h2{
     color:red;
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
 }
 
 p{
-    color: black;
-    background-color: whitesmoke;
+    color:cornsilk;
+    font-family: 'Dancing Script';
+    font-size:+2;
+}
+
+.image{
+    width: 100%;
+}
+
+.imagens {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.imagem {
+    width: 30%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.imagem:hover {
+    transform: scale(1.02);
+    filter: brightness(100%);
+}
+
+
+.imagem-titulo{
+    color: silver;
+    margin: 8px 0 12px;
 }
 
 a{
     color: yellow;
+
+}
+
+ol{
+    color: whitesmoke;
 }
